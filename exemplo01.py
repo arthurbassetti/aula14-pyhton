@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 
 Base = declarative_base()
 # Conectar ao SQLite em memória
-engine = create_engine('sqlite:///meubanco.db', echo=True)
+engine = create_engine('sqlite:///exemplo1.db', echo=True)
 
 print("Conexão com SQLite estabelecida.")
 
